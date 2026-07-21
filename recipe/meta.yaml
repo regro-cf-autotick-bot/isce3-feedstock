@@ -69,9 +69,8 @@ outputs:
         - h5py
         - llvm-openmp  # [osx]
         - _openmp_mutex  # [not osx]
-- _openmp_mutex  # [not osx]
-- pyproj
-- pyre >=1.12.1,<=1.13.0
+        - pyproj
+        - pyre >=1.12.1,<=1.13.0
         - pysolid
         - python
         - ruamel.yaml
